@@ -16,8 +16,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- Add users, comments, and posts.
-- Like posts.
+- Extensive Product Catalog.
+- Secure Payment Options.
+- Customer Reviews and Ratings.
 
 <!-- GETTING STARTED -->
 
