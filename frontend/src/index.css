@@ -1,0 +1,64 @@
+main {
+  min-height: 80vh;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+.item-card {
+  height: 25rem;
+}
+
+@media screen and (max-width: 768px) {
+  .item-card {
+    height: 90%;
+  }
+
+}
+
+.home-container> :not(h2),
+.home-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.s-container {
+  position: relative;
+}
+
+.s-container .swiper {
+  width: 70%;
+  height: 12rem;
+  position: unset;
+}
+
+.s-container .swiper-slide {
+  background: white;
+  display: flex;
+  border-radius: 10px;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.img-p {
+  width: 20px;
+  height: 20px;
+}
+
+.card-container {
+  height: 27rem;
+}

@@ -1,0 +1,75 @@
+.homeSlide h1 {
+  font-size: 45px;
+  line-height: 55px;
+  margin: 50px 0 20px 0;
+}
+
+.homeSlide p {
+  margin: 20px 0;
+}
+
+.homeSlide ul {
+  position: absolute;
+  bottom: 20px;
+}
+
+.homeSlide ul li {
+  border: 2px solid #b8b7b7;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.homeSlide ul li button {
+  background: transparent !important;
+  color: transparent !important;
+}
+
+.homeSlide ul li button::before {
+  font-size: 15px !important;
+  color: #0f3460;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  margin: auto;
+}
+
+.homeSlide {
+  background-color: white;
+  width: 98vw;
+  position: relative;
+  max-width: 100vw;
+  left: 50%;
+  margin-left: -48.9vw;
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+  box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
+  border-radius: 0.2rem;
+}
+
+
+
+.slide-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container {
+  flex: 0.7;
+  margin-right: 20px;
+}
+
+.description-container {
+  flex: 1;
+}
+
+.description-container h3 {
+  margin-bottom: -1.5rem;
+  line-height: 1.5rem;
+}
