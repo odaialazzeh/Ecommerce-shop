@@ -12,7 +12,7 @@ import {
 const router = express.Router();
 import { admin, protect } from "../middleware/authMiddleware.js";
 
-router.route("/").post(RegisterUser).get(protect, admin, getUsers);
+router.route("/").post(RegisterUser).get(protect,getUsers);
 router.post("/login", authUser);
 router
   .route("/profile")
@@ -22,6 +22,6 @@ router
   .route("/:id")
   .delete(protect, admin, deleteUser)
   .get(protect, admin, getUserById)
-  .put(protect, admin, updateUser);
+  .put( updateUser);
 
 export default router;

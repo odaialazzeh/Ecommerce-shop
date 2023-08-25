@@ -27,12 +27,16 @@ const ProductEditScreen = () => {
   const productDetails = useSelector((state) => state.productDetails);
   const { loading, error, product } = productDetails;
 
+  
+
   const productUpdate = useSelector((state) => state.productUpdate);
   const {
     loading: loadingUpdate,
     error: errorUpdate,
     success: successUpdate,
   } = productUpdate;
+
+  console.log(errorUpdate, loadingUpdate);
 
   useEffect(() => {
     if (successUpdate) {
